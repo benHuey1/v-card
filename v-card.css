@@ -1,0 +1,84 @@
+body {
+    color: white;
+    background-image: url(image/panneau-publicitaire.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.v-card {
+    height: 400px;
+    width: 1080px;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(0deg, rgb(223, 184, 11), rgb(145, 10, 10));
+    margin: 0px 200px 100px 190px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+
+.intro {
+    width: 250px;
+    margin: 30px;
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
+
+.intro .picture {
+    border: 20px solid white;
+    border-radius: 20px 50px;
+}
+
+
+article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+.content {
+    align-items: flex-start;
+}
+
+.catchphrase {
+    flex: 2;
+    width: 700px;
+}
+
+.catchphrase h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.skills {
+    flex: 1;
+    text-align: center;
+}
+
+.contact {
+    color: white;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.477);
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.contact h2 {
+    font-weight: bolder;
+}
+
+.contact img {
+    width: 40px;
+    height: auto;
+}
